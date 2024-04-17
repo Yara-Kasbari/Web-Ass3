@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Student Form </title>
+
+ 
+</head>
+<body>
+  <h1> Welcome, can you please fill this form.. </h1>
+  <form action="Edit.php"  method ="post">
+   <fieldset>
+    <legend> Student Record </legend>
+	
+	 <input type="hidden" name="action" value="Insert"> 
+	
+	 
+	 <label for ="studentID"> Student ID: </label>
+	 <input type="text"  name ="studentID" placeholder="Enter Student ID "><br>
+     <br>
+	 
+	 <label for ="studentName"> Student Name: </label>
+	 <input type="text" name= "studentName"  placeholder="Enter Student Name"><br>
+	 <br>
+	 
+	 <label for ="gender" > Gender: </label>
+	 <input type="radio" name="gender" value="1"> Female 
+	 <input type="radio" name="gender" value="2"> Male <br>
+	 <br>
+	 
+	 <label for ="dateOfBirth"> Date Of Birth: </label>
+	 <input type="date" name="dateOfBirth" placeholder="dd/mm/yyyy"><br>
+	 <br>
+	 
+	 <label for ="department"> Department: </label>
+	 <input type="text" Name="department" placeholder="Enter Department"><br>
+	 <br>
+	 
+	 <label for ="avarege"> Average: </label>
+	 <input type="text" Name="avarege" placeholder="Enter Average"><br>
+	 <br>
+	 
+	 
+	 <label for ="address"> Adress: </label>
+	 <input type="text" Name="address" placeholder="Enter Adress"><br>
+	 <br>
+	 
+	 <label for ="city"> City: </label>
+	 <input type="text" Name="city" placeholder="Enter City">
+	
+	  
+	 <label for ="country"> Country: </label>
+	 <input type="text" Name="country" placeholder="Enter Country"><br>
+	 <br>
+	 
+	 <label for ="tel"> tel: </label>
+	 <input type="text" Name="tel" placeholder="Enter tel"><br>
+	 <br>
+	 
+	 <label for ="email"> Email: </label>
+	 <input type="text" Name="email" placeholder="Enter Email"><br>
+	 <br>
+	 
+	 <label for ="photo"> Student photo : </label>
+	 <input type="file" Name="photo"> <br>
+	 <br>	 
+     <br>
+	 
+	
+	 <input type="submit" value="Update"> 
+	
+	 
+
+	 
+    </fieldset>
+   </form>
+  </body>
+ </html>  
